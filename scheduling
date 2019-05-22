@@ -1,0 +1,557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!--[if !mso]><!-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!--<![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title></title>
+  <style type="text/css">
+    .ReadMsgBody { 
+      width: 100%; 
+      background-color: #ffffff; 
+    }
+
+    .ExternalClass { 
+      width: 100%; 
+      background-color: #ffffff; 
+    }
+
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass td, .ExternalClass div { 
+      line-height: 100%; 
+    }
+    
+    html { 
+      width: 100%; 
+    }
+    
+    body { 
+      -webkit-text-size-adjust: none; 
+      -ms-text-size-adjust: none; 
+      margin: 0; 
+      padding: 0; 
+    }
+    
+    body {
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    }
+
+    .table-shadow {
+      box-shadow: 1px 1px 10px #ccc;
+    }
+  
+    table { 
+      border-spacing: 0; 
+      table-layout: fixed; 
+      margin: 0 auto; 
+    }
+    
+    table table table { 
+      table-layout: auto;
+    }
+
+    .table__content {
+    border-collapse: collapse;
+    margin: 0 24px !important;
+    display: block;
+    border: 2px #FC7484 solid;
+    border-top: 10px #FC7484 solid;
+    }
+
+    .yshortcuts a { 
+      border-bottom: none !important; 
+    }
+
+    img:hover { 
+      opacity: 1 !important; 
+    }
+
+    a { 
+      color: #EA5164; 
+      text-decoration: none; 
+    }
+
+    .textbutton a { 
+      font-family: 'open sans', arial, sans-serif !important; 
+    }
+
+    .btn-link a { 
+      color: #FFFFFF !important; 
+    }
+
+    .td-height {
+      height: 8px;
+    }
+
+    .td-height__size {
+      height: 0 !important;
+    }
+
+    .td-logo {
+      width: 100%;
+    }
+
+    .space {
+      padding: 0px;
+    }
+  
+    .header {
+        font-size: 14px;
+        color: #FC7484;
+        line-height: 24px;
+    }
+    
+    .dot {
+        height: 16px;
+        width: 16px;
+        background-color: #FF566A;
+        border-radius: 50%;
+        display: inline-block;
+        font-size: 12px;
+        text-align: center;
+        line-height: 16px;
+        margin-right: 5px;
+    }
+    
+    .email-color {
+      color: #999999;
+    }
+  
+    li {
+      list-style: none;
+      line-height: 24px;
+      font-size: 16px;
+      color: #474A52;
+    }
+    
+    @media only screen and (max-width: 480px) {
+    
+      body { 
+        width: auto !important; 
+      }
+      
+      *[class="table-inner"] { 
+        width: 90% !important; 
+        text-align: center !important; 
+      }
+
+      *[class="table-full"] { 
+        width: 100% !important; 
+        text-align: center !important; 
+      }
+
+      *[class="table-container"] { 
+        width: 100% !important; 
+        text-align: center !important; 
+        padding: 10px 16px 10px 16px !important; 
+      }
+
+      .td-height {
+      height: 24px !important;
+      }
+
+      .m-td-banner {
+        padding: 80px 0;
+        text-align: left !important;
+      }
+
+      .m-table-hero {
+        padding: 0 !important;
+      }
+
+      .table__content {
+        margin: 0 16px !important;
+      }
+
+      .m-table td {
+        font-size: 16px !important;
+        padding-left: 16px !important;
+      }
+
+      .m-td-content {
+        padding: 16px !important;
+        padding-bottom: 0 !important;
+        padding-top: 8px !important;
+        font-size: 16px !important;
+      }
+
+      img[class="img1"] { 
+        width: 100% !important; 
+        height: auto !important; 
+      }
+    }
+
+    @media only screen and (min-width: 450px) {
+      .m-td-banner {
+        height: 360px !important;
+      }
+    }
+
+    @media only screen and (max-width: 375px) {
+      .m-td-banner {
+        padding: 30px 0;
+      }
+
+      .td-height__size {
+        height: 16px !important;
+      }
+
+      .logo-margin {
+        margin-bottom: 24px !important;
+        margin-left: 16px !important;
+      }
+    }
+
+    @media only screen and (max-width: 320px) {
+      .m-td-banner {
+      padding: 13px 0;
+      }
+
+      .m-table td {
+        font-size: 16px !important;
+      }
+
+      .td-height__size {
+      height: 0 !important;
+    }
+
+      .m-td-content {
+        font-size: 14px !important;
+        line-height: 22px !important;
+      }
+
+      .logo-margin {
+      margin-bottom: 24px !important;
+      margin-left: 16px !important;
+      }
+
+      .header {
+        font-size: 12px !important;
+      }
+
+      li {
+      font-size: 14px !important;
+      }
+    }
+</style>
+</head>
+<body>
+ <!--hidden preview-->
+ <div style="display:none;font-size:1px;color:#333333;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">       
+</div>
+<!--end hidden preview-->
+  <!-- header -->
+  <table bgcolor="#f4f5f7" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+     <td align="center" bgcolor="#f4f5f7">
+        <table align="center" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td align="center" width="650">
+              <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="50"></td>
+                </tr>
+                <tr>
+                  <td align="center" style="text-align: center; vertical-align: top; font-size: 0;">
+                    <div style="display: inline-block; vertical-align: top;">
+                      <table align="center" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td align="center" width="650">
+                            <table width="95%" align="center" border="0" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td height="20" align="center" valign="middle" style="line-height: 0px;"></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="15"></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td height="30"></td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" width="650">
+              <table class="table-shadow" bgcolor="#ffffff" align="center" width="95%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="center" style="text-align:center;vertical-align:top;font-size:0;">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td align="center" width="650">
+                          <table class="table-container m-table-hero" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                            <!--image banner-->
+                            <tr>
+                              <td class="m-td-banner" style="line-height: 0px; background-image: url(https://gallery.mailchimp.com/2a0599fd4a726a4fc115f26fd/images/f5ff9bd7-d31a-4884-9771-3123da3bb8a7.png); background-repeat: no-repeat; background-size: contain; height: 170px; vertical-align: top; padding-top: 24px;"><!-- end image banner -->
+                                <table class="logo-margin" align="left" width="80%" style="margin: 0 0 60px 24px;">
+                                  <tr>
+                                    <td width="100%">
+                                      <!--logo-->
+                                      <img class="td-logo" src="https://gallery.mailchimp.com/2a0599fd4a726a4fc115f26fd/images/d0089cb8-1ee4-46d9-a7fb-8c732bf36035.png" style="display: inline-block;width: 100px"><!--end logo--><p class="m-td-padding" style="font-size: 14px; padding-left: 12px; display: inline-block; transform: translateY(-9px) !important;"><!-- Serbu Seru --></p>
+                                    </td>
+                                  </tr>
+                                </table>
+                                <table class="m-table" width="50%" align="left">
+                                  <tr>
+                                    <!-- title hero -->
+                                    <td style="font-size: 28px; font-weight: bold; line-height: 1.3; padding-left: 24px;">*|FNAME|*, Kami Senang Bisa Dengar Ceritamu</td>
+                                    <!-- end title hero -->
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="td-height__size"></td>
+                            </tr>
+                            <!--content-->
+                            <tr align="left">
+                              <td class="m-td-content" style="font-size:16px;color:#474A52;line-height:26px; padding: 24px;">Terima kasih sudah ceritain pengalaman kamu saat belanja di Bukalapak! Seperti yang dibicarakan di telepon tadi, Bukalapak mengundang kamu untuk menjadi partisipan riset yang akan diadakan pada:
+                              </td>
+                            </tr>
+                            <!--end content-->
+                            <tr>
+                              <td class="td-height"></td>
+                            </tr>
+                            <tr>
+                            	<td bgcolor="#fff">
+                                <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0" >
+                                <tbody><tr><td>
+                                  <!-- table -->
+                                  <table class="table__content">
+                                    <tr>
+                                      <td>
+                                        <ul style="padding: 24px;">
+                                          <li class="header">Lokasi</li>
+                                          <li>Bukalapak Engineering Office, Jl. Ampera Raya no. 22, Jakarta Selatan</li>
+                                          <div style="height: 12px"></div>
+                                          <li class="header">Pilihan Waktu</li>
+                                          <li><span class="dot" style="font-size: 12px; font-weight: bold; color: #fff">A</span>Rabu 16 Apr, 13:00 - 14:00</li>
+                                          <li><span class="dot" style="font-size: 12px; font-weight: bold; color: #fff">B</span>Rabu 16 Apr, 14:00 - 15:00</li>
+                                          <li><span class="dot" style="font-size: 12px; font-weight: bold; color: #fff">C</span>Rabu 16 Apr, 15:00 - 16:00</li>
+                                          <li><span class="dot" style="font-size: 12px; font-weight: bold; color: #fff">D</span>Kamis 17 Apr, 17:00 - 18:00</li>
+                                          <li><span class="dot" style="font-size: 12px; font-weight: bold; color: #fff">E</span>Kamis 17 Apr, 19:00 - 20:00</li>
+                                          <div style="height: 12px"></div>
+                                          <li class="header">Fasilitator Riset</li>
+                                          <li>Arvie <span class="email-color">(arvie.pravira@bukalapak.com)</span></li>
+                                          <div style="height: 12px"></div>
+                                          <li class="header">Bentuk Riset</li>
+                                          <li>Ngobrol santai &amp; cobain fitur baru Bukalapak</li>
+                                        </ul>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                  <!-- end table -->
+                                </td>
+                                  </tr></tbody>
+                                </table>                   
+                             	</td>
+                             </tr>
+                            <tr>
+                              <td class="td-height"></td>
+                            </tr>
+                            <!--content-->
+                            <tr align="left">
+                              <td class="m-td-content" style="font-size: 16px; color: #474A52; line-height: 26px; padding: 24px;">Mohon konfirmasi kehadiran dengan <b>me-reply email ini dan menyertakan waktu kedatangan</b> yang kamu pilih, ya!<br /> <br /> Dengan menghadiri sesi riset ini, kamu akan mendapatkan voucher Bukalapak sejumlah Rp1.000.000 dan juga goodie bag berisi merchandise eksklusif Bukalapak.<br /><br />Terima kasih dan sampai ketemu di sesi riset nanti :D
+                                <br /> <br /><br />
+                                  <span style="color: #999999;">Salam hangat,</span><br />
+                                  <span style="color: #999999; font-weight: bold;">Bukalapak Design - UX Research Department</span>
+                              </td>
+                            </tr>
+                            <!--end content-->
+                            <tr>
+                              <td class="td-height"></td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="20"></td>
+    </tr>
+  </table>
+  <!--footer-->
+  <table bgcolor="#f4f5f7" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td align="center">
+        <table align="center" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td align="center" width="650">
+              <table class="table-shadow" bgcolor="#ffffff" align="center" width="95%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="center" style="text-align:center;vertical-align:top;font-size:0;">
+                    <table align="center" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td align="center" width="650">
+                          <table class="table-container" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="padding: 20px" >
+                          <!--CS-->
+                          <tr>
+            	<td >
+                <table width="100%" bgcolor="#F4F5F7" align="center" cellpadding="0" cellspacing="0" style="border-radius: 8px; border: 1px solid #DFE3E9; " >
+                <tbody><tr>
+                <td width="15" style="line-height:0px; padding-left: 5px; padding-right: 5px; "><img src="https://s1.bukalapak.com/uploads/attachment/109601/ic_search.png" alt="img" style="display:block; line-height:0px; font-size:0px; border:0px; width: 30px; padding: 12px; " /></td>
+                <td align="left">
+                        <a href="https://www.bukalapak.com/" target="_blank" style=" color:#282E33; vertical-align: middle; display: block; background-color:transparent; border-radius: 8px;  height: 18px; padding:15px 15px 15px 0px ; font-size:14px; letter-spacing:0px; text-decoration:none; font-weight:normal;"><span style="font-size:14px;letter-spacing:0px; color: #474A52; " >Aku mau belanja…</span>
+                        </a>
+                </td>
+                 
+                  </tr></tbody>
+                </table>
+
+             	</td>
+             </tr>                                       
+                         <tr>
+                              <td height="20"></td>
+                            </tr>
+                  <!--end CS-->
+                            <tr>
+                  <td align="center" style="text-align:left;vertical-align:top;font-size:0;">
+                  <!--preference-->
+                    <div style="display:inline-block; vertical-align:top;">
+                      <table align="left" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td align="left" width="360">
+                            <table border="0" align="left" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td align="left" style=" font-size:12px; color:#808E8E;line-height:18px;">Plaza City View Lt. 1 Jl. Kemang Timur No. 22<br />
+                                  Jakarta Selatan Indonesia 12510<br />
+                                  Call Centre 021-50813333 (24 Jam)</td>
+                              </tr>
+                              <tr>
+                                <td height="15"></td>
+                              </tr>
+                              <tr>
+                                <td align="left" style=" font-size:12px; color:#808E8E;line-height:18px;"><a href="https://www.bukalapak.com/bantuan">BukaBantuan</a> | <a href="https://www.bukalapak.com/privacy">Panduan Keamanan</a></td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="15"></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!--end preference-->
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    <td align="center" style="text-align:center;vertical-align:top;font-size:0;">
+                    <![endif]-->
+                    <!--social-->
+                    <div style="display:inline-block; vertical-align:top;">
+                      <table align="left" border="0" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <td align="left" width="215">
+                            <table border="0" align="left" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td align="left" style="line-height:0px;">
+                                  <a href="http://bl.id/1XmbQ4k" target="_blank"><img style="display:block; line-height:0px; font-size:0px; border:1px solid #80868F; border-radius: 6px;" src="https://trello-attachments.s3.amazonaws.com/583c3b6a4a7987805fb8f125/58734fa9b913777c4a6499d3/3400fd330acc55bcca98b8098f211b42/app_store.png" alt="img" width="100"/></a>
+                                </td>
+                                <td width="10"></td>
+                                <td align="center" style="line-height:0px;">
+                                  <a href="https://play.google.com/store/apps/details?id=com.bukalapak.android&amp;hl=en" target="_blank"><img style="display:block; line-height:0px; font-size:0px; border:1px solid #80868F; border-radius: 6px; " src="https://trello-attachments.s3.amazonaws.com/583c3b6a4a7987805fb8f125/58734fa9b913777c4a6499d3/715ee3c1166d2ea728026a3118953856/google_play.png" alt="img" width="100" /></a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="50" align="center" width="110">
+                            <table border="0" align="center" cellpadding="0" cellspacing="0">
+                              <tr>
+                                <td align="center" style="line-height:0px;">
+                                  <a href="https://www.facebook.com/bukalapak" target="_blank"><img src="https://s0.bukalapak.com/uploads/attachment/554501/fb.png" alt="img" width="30" style="display:block; line-height:0px; font-size:0px; border:0px;" /></a>
+                                </td>
+                                <td width="5"></td>
+                                <td align="center" style="line-height:0px;">
+                                  <a href="https://twitter.com/bukalapak" target="_blank"><img src="https://s2.bukalapak.com/uploads/attachment/254501/twitter.png" alt="img" width="30" style="display:block; line-height:0px; font-size:0px; border:0px;" /></a>
+                                </td>
+                                <td width="5"></td>
+                                <td align="center" style="line-height:0px;">
+                                  <a href="https://www.youtube.com/user/bukalapak" target="_blank"><img src="https://s4.bukalapak.com/uploads/attachment/464501/youtube.png" alt="img" width="30" style="display:block; line-height:0px; font-size:0px; border:0px;" /></a>
+                                </td>
+                                <td width="5"></td>
+                                <td align="center" style="line-height:0px;">
+                                  <a href="https://www.instagram.com/bukalapak/" target="_blank"><img src="https://s3.bukalapak.com/uploads/attachment/854501/Instagram.png" alt="img" width="30" style="display:block; line-height:0px; font-size:0px; border:0px;" /></a>
+                                </td>
+                                <td width="5"></td>
+                                <td align="center" style="line-height:0px;">
+                                  <a href="https://plus.google.com/+bukalapakdotcom" target="_blank"><img src="https://s4.bukalapak.com/uploads/attachment/944501/g_.png" alt="img" width="30" style="display:block; line-height:0px; font-size:0px; border:0px;" /></a>
+                                </td>
+                                <td width="5"></td>
+                                <td align="center" style="line-height:0px;">
+                                  <a href="https://www.linkedin.com/company/pt-bukalapak-com/" target="_blank"><img src="https://s1.bukalapak.com/uploads/attachment/164501/linkedin.png" alt="img" width="30" style="display:block; line-height:0px; font-size:0px; border:0px;" /></a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="15"></td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!--end social-->
+                  </td>
+                </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="20"></td>
+    </tr>
+  </table>
+  <!--end footer-->
+  <!-- copyright -->
+  <table bgcolor="#f4f5f7" align="center" width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="0"></td>
+    </tr>
+    <tr>
+      <td align="center">
+        <table align="center" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <td align="center" width="650">
+              <table width="95%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <!-- title -->
+                <tr>
+                                <td align="center" style="font-size:12px; color:#808E8E;line-height:18px;"><a href="*|PREVIEW_LINK|*">Tampilkan Email Ini di Browser</a> | <a href="*|UNSUBSCRIBE_LINK_WITH_TOKEN|*">Berhenti Berlangganan</a><br />
+                                Copyright © 2019 PT Bukalapak.com. All Rights Reserved</td>
+                </tr>
+                <!-- end title -->
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td height="20"></td>
+    </tr>
+  </table>
+  <!-- end copyright -->
+</body>
+</html>
